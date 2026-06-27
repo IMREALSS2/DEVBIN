@@ -4,10 +4,10 @@
 
 #### the .io scripting community is back
 
-[![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00AE86&center=true&vCenter=true&width=600&lines=DevBin+Reborn;the+comeback+is+real;devast.io+%E2%80%A2+surviv.io+%E2%80%A2+starve.io;discord+tools+%E2%80%A2+scripts+%E2%80%A2+community)](https://git.io/typing-svg)
+[![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00AE86&center=true&vCenter=true&width=600&lines=DevBin+is+back.;zeta+%E2%86%92+devbin+%E2%86%92+devbin+reborn;chapter+9+begins.;told+you+it+wasn't+over.)](https://git.io/typing-svg)
 
 [![Website](https://img.shields.io/badge/visit-the_site-00AE86?style=for-the-badge&logo=github&logoColor=white)](https://imrealss2.github.io/DEVBIN/index.html)
-[![Discord](https://img.shields.io/badge/join-the_discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/devbinreborn)
+[![Discord](https://img.shields.io/badge/join-the_discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/xx24Vd8W23)
 [![YouTube](https://img.shields.io/badge/youtube-%23FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@OFFICALSS2SCRIPTS)
 
 </div>
@@ -16,19 +16,27 @@
 
 <div align="center">
 
-### what is this
+### the short version
 
 </div>
 
-**DevBin Reborn** is the comeback. After the original DevBin shut down, the community asked for a return. This is it — same energy, better build, expanded focus.
+It started as **Zeta Scripts** — Discord tools and .io game scripts. Zeta blew up fast, made money, and the community was growing. Zeta was facing lots of allegations and Discord made the server have violations. Zeta fell apart.
 
-We're back with scripts for **devast.io**, **surviv.io**, **starve.io**, and **Discord tools**.
+Zeta stepped down. **SS2** took over and rebranded it into **DevBin**. It never hit Zeta's highs, but that was never the point — it was about getting better. After two months, SS2 shut it down to move on to bigger things.
+
+Now we're back as **DevBin Reborn**. Scripts for **devast.io**, **surviv.io**, **starve.io**, and **Discord tools**. Same energy, better build.
+
+> The full story lives on the [Our Story](https://imrealss2.github.io/DEVBIN/lore.html) page.
 
 ---
 
 <div align="center">
 
 ### what's in this repo
+
+</div>
+
+<div align="center">
 
 ![HTML](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -39,25 +47,41 @@ We're back with scripts for **devast.io**, **surviv.io**, **starve.io**, and **D
 
 </div>
 
-- **The website** — landing page with verify, live leaderboard, live stats, scripts page, status page, success/error/404
-- **The Discord bot** — 29 slash commands, ~3,650 lines, full feature set: invites, auto-mod, tickets, jail, blacklists, logging, shop, auto-translated announcements, backups
-- **The Cloudflare Worker** — OAuth2 verification + live data API for the website
+- **The website** — landing page, live leaderboard + stats, scripts page, status page, custom 404, loading animation, cursor glow, and a hidden easter egg
+- **The Discord bot** — a ~4,000 line Node.js bot: invite tracking, auto-mod, tickets, jail system, logging, shop, auto-translated announcements, backups, mass-rejoin system, and **33 slash commands**
+- **The Cloudflare Worker** — handles OAuth2 verification, serves live leaderboard + stats to the website, and powers the mass-rejoin endpoint
 
 ---
 
 <div align="center">
 
-### the comeback
+### the bot, in numbers
 
 </div>
 
 ```js
-const reborn = {
-  status:   "ACTIVE",
-  games:    ["devast.io", "surviv.io", "starve.io"],
-  tools:    "Discord automation + management",
-  commands: 29,
-  motto:    "told you it wasn't over",
+const devbin = {
+  lines:     4000,
+  commands:  33,
+  eventLogs: "30+",
+  features: [
+    "invite tracking + auto roles",
+    "auto-moderation (links + profanity)",
+    "anti token grabber (instant ban)",
+    "jail system w/ auto channel creation",
+    "ticket system",
+    "invite blacklist",
+    "backup + restore",
+    "auto-translated announcements",
+    "mass rejoin (server rebuild)",
+    "lockdown / unlockdown",
+    "changelog system",
+    "mod abuse logging",
+    "Day 1 anniversary roles",
+    "full server logging",
+  ],
+  database:  "SQLite (persistent)",
+  hosting:   "Cybrancee + Cloudflare Workers",
 };
 ```
 
@@ -65,9 +89,9 @@ const reborn = {
 
 <div align="center">
 
-### links
+### where to find SS2
 
-[![Discord](https://img.shields.io/badge/discord-join_the_server-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/devbinreborn)
+[![Discord](https://img.shields.io/badge/discord-join_devbin_reborn-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/xx24Vd8W23)
 [![YouTube](https://img.shields.io/badge/youtube-%40OFFICALSS2SCRIPTS-%23FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@OFFICALSS2SCRIPTS)
 [![Kofi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/s/bb91173a6c)
 [![Boosty](https://img.shields.io/badge/Boosty-F15F2C?style=for-the-badge&logoColor=white)](https://boosty.to/devast)
@@ -80,6 +104,6 @@ const reborn = {
 
 *chapter 9 begins.*
 
-![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0a4d3c,00ae86,0a4d3c,060609&height=120&section=footer&animation=fadeIn)
+![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0a4d3c,00ae86,0a4d3c,060609&height=140&section=footer&animation=fadeIn)
 
 </div>
